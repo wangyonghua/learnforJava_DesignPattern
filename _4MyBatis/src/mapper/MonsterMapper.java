@@ -5,9 +5,8 @@ import java.util.Map;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.atguigu.mybatis.entity.Monster;
-import com.atguigu.mybatis.entity.Monster2;
-
+import entity.Monster;
+import entity.Monster2;
 
 
 public interface MonsterMapper {

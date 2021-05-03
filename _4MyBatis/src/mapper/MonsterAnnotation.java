@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-import com.atguigu.mybatis.entity.Monster;
+import entity.Monster;
 
 
 

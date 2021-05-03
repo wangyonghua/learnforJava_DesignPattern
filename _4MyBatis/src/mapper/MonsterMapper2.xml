@@ -3,7 +3,7 @@
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.atguigu.mybatis.mapper.MonsterMapper2">
+<mapper namespace=mapper.MonsterMapper2">
 	<!-- 实现 addMonster -->
 	<insert id="addMonster" parameterType="monster2">
 		INSERT INTO mybatis_monster2 (user_name,user_email) VALUES(#{username}, #{useremail})

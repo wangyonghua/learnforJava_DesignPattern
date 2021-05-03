@@ -2,7 +2,7 @@ package mapper;
 
 import java.util.List;
 
-import com.atguigu.mybatis.entity.Monster2;
+import entity.Monster2;
 
 
 

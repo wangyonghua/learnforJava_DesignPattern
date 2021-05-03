@@ -13,7 +13,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	6. (age,birthday,email,gender,name,salary) 表的字段名
 	7. #{age},#{birthday},#{email},#{gender},#{name},#{salary} 是实体类Monster的属性名
   -->
-<mapper namespace="com.atguigu.mybatis.mapper.MonsterMapper">
+<mapper namespace="mapper.MonsterMapper">
 	<!-- 配置我们的添加方法，获取到刚刚加入的monster对象的id 
 		1. useGeneratedKeys="true" 表示要返回刚刚添加的对象的主键值
 		2. keyProperty="monster_id" 表示返回的刚刚添加的对象的主键值，set到monster_id 属性
